@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
 }
 
 img {
@@ -24,4 +28,27 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.flex {
+  display: flex;
+}
+.header {
+  margin-bottom: auto;
+}
+.left-links {
+  margin-right: auto;
+}
+.gap-10 {
+  gap:10px;
+}
+.right-links {
+margin-left: auto;
+}
+
+.content {
+  align-self: center;
+}
+.footer {
+  margin-top: auto;
 }
