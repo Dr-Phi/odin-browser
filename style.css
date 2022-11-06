@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  
 }
 
 img {
@@ -20,6 +20,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-size: medium;
+  padding: 10px;
+  font-weight: bold;
 }
 
 input {
@@ -30,6 +33,15 @@ input {
   margin-bottom: 16px;
 }
 
+li {
+  list-style-type:none;
+}
+a {
+  text-decoration: none;
+  color: #393f48;
+  font-size: large;
+  font-weight: 500;
+}
 .flex {
   display: flex;
 }
@@ -38,17 +50,26 @@ input {
 }
 .left-links {
   margin-right: auto;
+  margin-left: -15px;
 }
 .gap-10 {
-  gap:10px;
+  gap:13px;
 }
 .right-links {
-margin-left: auto;
+  margin-left: auto;
+  margin-right: 10px;
 }
-
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
 .content {
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer {
   margin-top: auto;
+  background-color: #E8E8E8;
 }
